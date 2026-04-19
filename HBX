@@ -1,1 +1,10 @@
-echo 'python -c "import HBXROKY"' > HBX
+import os
+import HBXROKY
+
+if __name__ == "__main__":
+    try:
+        # আপনার আসল সো ফাইলের ফাংশনগুলো কল করা
+        HBXROKY.professional_logo()
+        HBXROKY.bot.infinity_polling()
+    except Exception as e:
+        print(f"Error: {e}")
