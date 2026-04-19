@@ -1,27 +1,25 @@
-# ☠️ HBX-ROKY BOT PANEL ☠️
+# ☠️ HBX-ROKY ULTRA SPEED ☠️
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🛡️_SECURITY-MAX-red?style=for-the-badge" alt="Security">
-  <img src="https://img.shields.io/badge/🚀_VERSION-1.0.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/🛡️_SECURITY-ENCRYPTED-red?style=for-the-badge" alt="Security">
+  <img src="https://img.shields.io/badge/🚀_VERSION-21.0_SECURED-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/👤_AUTHOR-RAKIB_HASAN_ROKY-green?style=for-the-badge" alt="Author">
 </p>
 
 ---
 
-## 💻 SYSTEM STATUS: <kbd>ONLINE</kbd> 🟢
+## 💻 SYSTEM STATUS: <kbd>STABLE</kbd> 🔵
 
-> **"Welcome to the dark side of automation. Control, monitor, and dominate."**
-> — *HBX TEAM*
+> **"আমরা কোড করি সিস্টেম কন্ট্রোল করার জন্য, শুধু চালানোর জন্য নয়।"**
+> — *HBX TEAM (ROKY)*
 
 ---
 
 ## 🛠️ INSTALLATION INSTRUCTIONS (TERMUX)
 
-<details>
-<summary>👉 Click to expand Installation Steps</summary>
+টার্মিনালে এই কমান্ডগুলো কপি করে একটা একটা করে রান করুন:
 
-### 1️⃣ Update & Install Dependencies
-
+### 1️⃣ Update & Setup Environment
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
