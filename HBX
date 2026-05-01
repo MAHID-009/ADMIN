@@ -1,12 +1,35 @@
-# এবার Decode কর কেমন করস দেখতেছি 
-
 import os
-import HBXADMIN
+import platform
+import sys
+
+def get_arch():
+    machine = platform.machine().lower()
+    if "aarch64" in machine or "arm64" in machine:
+        return "64"
+    else:
+        return "32"
+
+def main():
+    os.system('clear')
+    arch = get_arch()
+
+    if arch == "64":
+        try:
+            import HBXAD
+            # আপনার মেইন ফাংশন এবং বট কল
+            HBXAD.professional_logo()
+            print("\n\033[1;35m[✔] HBX ADMIN MODULE STARTED...\033[0m")
+            HBXAD.bot.infinity_polling()
+        except ImportError:
+            print("❌ Error: HBXAD.so খুঁজে পাওয়া যায়নি!")
+            sys.exit()
+        except Exception as e:
+            print(f"Error: {e}")
+    else:
+        print("="*40)
+        print("❌ আপনার ডিভাইসটি ৩২-বিটের, এটি চলবে না।")
+        print("="*40)
+        sys.exit()
 
 if __name__ == "__main__":
-    try:
-    
-        HBXADMIN.professional_logo()
-        HBXADMIN.bot.infinity_polling()
-    except Exception as e:
-        print(f"Error: {e}")
+    main()
